@@ -1,0 +1,810 @@
+body 
+{   
+	font-family: 'Times New Roman', Times, serif;
+	color: #181818; 
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
+    background-color: hwb(0 100% 0%);
+    width: 100%;
+}
+
+#logo2
+{
+	width: 35%;
+    margin: 0px;
+	padding: 0px;
+}
+
+#panel
+{
+	position:fixed;
+	width: 99.7%;
+    width: 100%;
+	border-right:10px solid #343434;
+	background-color: white; 
+	margin: 0px;
+	padding: 0px;
+	z-index: 2; 
+}
+#bienvenu
+{
+	width: 33%;
+	text-align: center;
+	display: inline-block;
+}
+#logo_1
+{
+	float: left;
+	width: 100px;
+	width: 20%;
+	text-align: center;
+}
+#congo_journal1
+{
+	
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+@media screen and (min-width:600px)
+{
+        nav, li
+        {    
+            font-family: Dayrom, serif;    
+            font-weight: normal;    
+            text-transform: uppercase;
+            text-align: right;
+            display: inline-block;
+            border-radius: 4px;
+            font-size: 12px;
+            padding: 4px;
+            margin: 7px;
+            background-color: rgb(255,255,255);
+            
+        }
+        #lis
+        {
+            background-color: rgb(116, 111, 111);
+        }
+        nav a 
+        {    
+            font-size: 1.3em;    
+            color: #ffc400;    
+            padding-bottom: 3px;
+            text-decoration: none; 
+        } 
+        nav
+        {    
+            width: 99.7%;
+            background-color: rgb(255,255,255); 
+            padding: 0px;
+            margin: 0px;
+            height:33px;
+            font-size: 1px;
+        }
+        #menu
+        {
+            display: none;
+            list-style: none;
+        }
+        #menus2
+        {
+            list-style: none;
+            display: flex;
+            display: none;
+        }
+}
+@media screen and (max-width:600px)
+{
+        #lis
+        {
+            display: none;
+            list-style: none;
+        }
+        #menu
+        {
+            width: 20%;
+            height: 60%;
+            padding: 0px;
+            margin: 0px;
+            border: 1px solid black;
+        }
+        #liss
+        {
+            font-weight: normal;    
+            text-transform: uppercase;
+            text-align: right;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(255, 255, 255);
+            width: 90%;
+            height:30px;
+            font-size: 14px;
+            border-right:10px solid #343434;
+        }
+        #menus2
+        {
+            list-style: non;
+            display: fle;
+            display: none;
+        }
+        #separateur
+        {
+        border: 1px solid black;
+        padding: 0px;
+            margin: 0px;
+            height: 15px;
+            
+        }     
+        #logo2
+        {
+            width: 35%;
+            margin: 0px;
+            padding: 0px;
+        }
+        #bienvenu
+        {
+            width: 33%;
+            text-align: center;
+            display: inline-block; 
+
+        }
+        #logo_1
+        {
+            float: left;
+            width: 100px;
+            width: 20%;
+            text-align: center;
+        }
+        #congo_journal1
+        {
+            
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+        }
+        #panel
+        {
+            position:fixed;
+            width: 99.7%;
+            width: 100%;
+            border-right:10px solid #343434;
+            background-color: white; 
+            margin: 0px;
+            padding: 0px;
+            z-index: 2; 
+            height: 7%;
+            overflow: hidden;
+        }
+
+}
+#bien
+{
+    text-align: left;
+    font-size: 10px;
+    width: 200px;
+    padding: 0px;
+	margin: 0px;
+}
+#photo_congo1
+{
+    width: 100%;
+}
+
+@media screen and (min-width:860px)
+{
+	#article_et_aside
+        {
+            border: 1px solid rgb(207, 7, 7);
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+            background-color:rgb(166, 255, 0);
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }
+    #bloc
+        {
+            width: 95%;
+            background-color:rgb(92, 180, 196);
+            margin: auto; 
+        }
+    #article1
+        {
+            width: 100%;
+            background-color:rgb(204, 116, 226);
+        }
+}
+
+
+@media screen and (max-width:859px)
+{
+	#article_et_aside
+        {
+            border: 1px solid rgb(207, 7, 7);
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+            background-color:blue;
+            margin: 0px;
+            padding: 0px;
+            width:100%;
+        }
+
+        #bloc
+        {
+            width: 100%;
+            background-color:rgb(255, 255, 255);
+            text-align: center;
+            border: 1px solid rgb(247, 223, 7);
+        }
+    #article1, #aside1
+        {
+            display: inline-block;
+        }
+    #article1
+        {
+            width: 49.6%;
+            text-align: center;
+        }
+    #aside1
+        {
+            width: 29.6%;
+            text-align: center;
+        }
+}
+
+footer
+{
+	border: 1px solid black;
+	background-color: rgb(5,14,75);
+	color: white;
+}
+#theme
+{
+	width: 100%;
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#actualite, #theme2, #theme3, #theme4, #theme5
+{
+	border: 1px solid black;
+	
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	width: 261px;
+	overflow: hidden;
+}
+#attribut
+{
+	text-align: center;
+	background-color: rgb(244,189,0);
+	font-size: 25px;
+}
+
+#mes_photos
+{
+	border: 1px solid black;
+}
+#mes_amis
+{
+	border: 1px solid black;
+}
+#photo_congo
+{
+    height: 300px;
+    width: 695px;
+    border-radius: 20px;
+}
+#general
+{
+    text-align: left;
+}
+#ligne1
+{
+    text-decoration-line: underline overline;
+}
+#s1
+{
+	background-image: url("congojournal/images/actualites/actu_1.jpg");
+    
+	background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#s2
+{
+	background-image: url("congojournal/images/actualites/actu_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#s3
+{
+	background-color: black;
+	background-image: url("congojournal/images/actualites/actu_3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#s4
+{
+	background-image: url("congojournal/images/actualites/actu_4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#s1, #s2, #s3,#s4
+{
+    display: inline-flex;
+    padding: 0px;
+	margin: 0px;
+}
+#slider-images
+{
+    display: flex;
+    overflow: hidden;
+    width: 1044px;
+    height: 200px;
+    padding: 0px;
+	margin: 0px;
+   
+}
+#slider-fram
+{
+    height: 220px;
+    width: 261px;
+    overflow: hidden;
+    padding: 0px;
+	margin: 0px;
+    border: 1px solid black;
+}
+#slider-images
+{
+    animation-duration: 10s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+    padding: 0px;
+	margin: 0px;
+}
+@keyframes mesImages
+{
+    0%{transform: translateX(0px) ;}
+    34%{transform: translateX(-261px) ;}
+    68%{transform: translateX(-522px) ;}
+    100%{transform: translateX(-783px) ;}
+    100%{transform: translateX(-783px) ;}
+}
+#box
+{
+    border: 1px solid black;
+    height: 200px;
+    width: 261px;
+    overflow: hidden;
+    position: relative;  
+}
+#text
+{
+    position: absolute;    
+    right: 0%;    
+    bottom: 0%;    
+    z-index: 1; 
+	width: 79%;
+	background-color: rgb(255, 246, 192);
+	font-size: 10px;
+}
+#attribut1
+{
+	text-align: center;
+	background-color: rgb(244,189,0);
+	font-size: 25px;
+}
+
+#c1
+{
+	background-image: url("congojournal/images/sports/sport_1.jpg");
+    
+	background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#c2
+{
+	background-image: url("congojournal/images/sports/sport_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#c3
+{
+	background-color: black;
+	background-image: url("congojournal/images/sports/sport_3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#c4
+{
+	background-image: url("congojournal/images/sports/sport_4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#c1, #c2, #c3,#c4
+{
+    display: inline-flex;
+    padding: 0px;
+	margin: 0px;
+}
+#slider-images1
+{
+    display: flex;
+    overflow: hidden;
+    width: 1044px;
+    height: 200px;
+    padding: 0px;
+	margin: 0px;
+   
+}
+#slider-fram1
+{
+    height: 220px;
+    width: 261px;
+    overflow: hidden;
+    padding: 0px;
+	margin: 0px;
+    border: 1px solid black;
+}
+#slider-images1
+{
+    animation-duration: 10s;
+    animation-name: mesImages1;
+    animation-iteration-count: infinite;
+    padding: 0px;
+	margin: 0px;
+}
+@keyframes mesImages1
+{
+    0%{transform: translateX(0px) ;}
+    34%{transform: translateX(-261px) ;}
+    68%{transform: translateX(-522px) ;}
+    100%{transform: translateX(-783px) ;}
+    100%{transform: translateX(-783px) ;}
+}
+#box1
+{
+    border: 1px solid black;
+    height: 200px;
+    width: 261px;
+    overflow: hidden;
+    position: relative;  
+}
+
+
+#ec1
+{
+	background-image: url("congojournal/images/economie/eco_1.jpg");
+    
+	background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#ec2
+{
+	background-image: url("congojournal/images/economie/eco_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#ec3
+{
+	background-color: black;
+	background-image: url("congojournal/images/economie/eco_3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#ec4
+{
+	background-image: url("congojournal/images/economie/eco_4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#ec1, #ec2, #ec3,#ec4
+{
+    display: inline-flex;
+    padding: 0px;
+	margin: 0px;
+}
+#slider-images2
+{
+    display: flex;
+    overflow: hidden;
+    width: 1044px;
+    height: 200px;
+    padding: 0px;
+	margin: 0px;
+   
+}
+#slider-fram2
+{
+    height: 220px;
+    width: 261px;
+    overflow: hidden;
+    padding: 0px;
+	margin: 0px;
+    border: 1px solid black;
+}
+#slider-images2
+{
+    animation-duration: 7s;
+    animation-name: mesImages2;
+    animation-iteration-count: infinite;
+    padding: 0px;
+	margin: 0px;
+}
+@keyframes mesImages2
+{
+    0%{transform: translateX(0px) ;}
+    34%{transform: translateX(-261px) ;}
+    68%{transform: translateX(-522px) ;}
+    100%{transform: translateX(-783px) ;}
+    100%{transform: translateX(-783px) ;}
+}
+#box2
+{
+    border: 1px solid black;
+    height: 200px;
+    width: 261px;
+    overflow: hidden;
+    position: relative;  
+}
+
+
+#pol1
+{
+	background-image: url("congojournal/images/politique/pol_1.jpg");
+    
+	background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#pol2
+{
+	background-image: url("congojournal/images/politique/pol_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#pol3
+{
+	background-color: black;
+	background-image: url("congojournal/images/politique/pol_3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#pol4
+{
+	background-image: url("congojournal/images/politique/pol_4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#pol1, #pol2, #pol3,#pol4
+{
+    display: inline-flex;
+    padding: 0px;
+	margin: 0px;
+}
+#slider-images3
+{
+    display: flex;
+    overflow: hidden;
+    width: 1044px;
+    height: 200px;
+    padding: 0px;
+	margin: 0px;
+   
+}
+#slider-fram3
+{
+    height: 220px;
+    width: 261px;
+    overflow: hidden;
+    padding: 0px;
+	margin: 0px;
+    border: 1px solid black;
+}
+#slider-images3
+{
+    animation-duration: 7s;
+    animation-name: mesImages3;
+    animation-iteration-count: infinite;
+    padding: 0px;
+	margin: 0px;
+}
+@keyframes mesImages3
+{
+    0%{transform: translateX(0px) ;}
+    34%{transform: translateX(-261px) ;}
+    68%{transform: translateX(-522px) ;}
+    100%{transform: translateX(-783px) ;}
+    100%{transform: translateX(-783px) ;}
+}
+#box3
+{
+    border: 1px solid black;
+    height: 200px;
+    width: 261px;
+    overflow: hidden;
+    position: relative;  
+}
+
+
+#sc1
+{
+	background-image: url("congojournal/images/sociale/social_1.jpg");
+	background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#sc2
+{
+	background-image: url("congojournal/images/sociale/social_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#sc3
+{
+	background-color: black;
+	background-image: url("congojournal/images/sociale/social_3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#sc4
+{
+	background-image: url("congojournal/images/sociale/social_4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 261px;
+    padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+}
+#sc1, #sc2, #sc3, #sc4
+{
+    display: inline-flex;
+    padding: 0px;
+	margin: 0px;
+}
+#slider-images4
+{
+    display: flex;
+    overflow: hidden;
+    width: 1044px;
+    height: 200px;
+    padding: 0px;
+	margin: 0px;
+   
+}
+#slider-fram4
+{
+    height: 220px;
+    width: 261px;
+    overflow: hidden;
+    padding: 0px;
+	margin: 0px;
+    border: 1px solid black;
+}
+#slider-images4
+{
+    animation-duration: 10s;
+    animation-name: mesImages4;
+    animation-iteration-count: infinite;
+    padding: 0px;
+	margin: 0px;
+}
+@keyframes mesImages4
+{
+    0%{transform: translateX(0px) ;}
+    34%{transform: translateX(-261px) ;}
+    68%{transform: translateX(-522px) ;}
+    100%{transform: translateX(-783px) ;}
+    100%{transform: translateX(-783px) ;}
+}
+#box4
+{
+    border: 1px solid black;
+    height: 200px;
+    width: 261px;
+    overflow: hidden;
+    position: relative;  
+}

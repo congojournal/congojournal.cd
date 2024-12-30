@@ -1,0 +1,24 @@
+
+#panel
+{
+	position:fixed;
+	width: 99.7%;
+    width: 100%;
+	border-right:10px solid #343434;
+	background-color: white; 
+	margin: 0px;
+	padding: 0px;
+	z-index: 2; 
+}
+#logo2
+{
+	width: 35%;
+    margin: 0px;
+	padding: 0px;
+}
+#bienvenu
+{
+	width: 33%;
+	text-align: center;
+	display: inline-block;
+}
